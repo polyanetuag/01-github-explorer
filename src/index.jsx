@@ -1,3 +1,3 @@
-function App() {
-  return <h1>Hello World</h1>;
-}
+import { render } from "react-dom";
+
+render(<App />, document.getElementById("root"));
